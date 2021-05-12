@@ -1,0 +1,12 @@
+mixer -> LPF 까지 거친 신호를 설계.
+
+1.   st = cos[2*pi*( f0*t + mu/2*t^2 )] chirp sagnal에서....
+     s0t = a cos (2*pi*f0*t*delta_tau + 2*pi*mu*delta_tau + pi*mu*(delta_tau)^2) 이 신호를 만들고
+     stretch processor 설계
+
+2.   app designer로 옮겨서 delta_t를 측정하고... 거리 구하고, 분해능이 얼마나 좋은지 판별.
+
+3.   barker code 설계. (분해능 측정)
+
+
+
