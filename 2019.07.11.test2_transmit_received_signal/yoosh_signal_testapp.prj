@@ -1,0 +1,60 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3045386982" file="C:\Users\Administrator\Desktop\yoosh_signal_testapp.prj" location="C:\Users\Administrator\Desktop" name="yoosh_signal_testapp" target="target.mlapps" target-name="앱 패키징">
+    <param.appname>yoosh_signal_testapp</param.appname>
+    <param.authnamewatermark>YooSeungHyeong</param.authnamewatermark>
+    <param.email>seunghy1468@naver.com</param.email>
+    <param.company>Catholic University of Korea</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>transmit &amp; received signal</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Administrator\AppData\Local\Temp\tpc5f1b47e_efd5_4ea3_be46_5cd3e4329cb8.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Administrator\Desktop</param.output>
+    <param.guid>b43b507d-a753-48cb-b0d4-e965d190555f</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\yoosh_signal_testapp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Administrator" name="Desktop" optional="false">C:\Users\Administrator\Desktop</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
