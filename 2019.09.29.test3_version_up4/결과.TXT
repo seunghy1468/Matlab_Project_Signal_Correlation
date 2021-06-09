@@ -1,0 +1,12 @@
+-----------------------------------수정-------------------------
+
+stretch processor 최종 결과물을 주파수 도메인으로 옮김.
+카이저윈도우 설계
+app designer 설계 및 stretch processor 적용
+costas code에서 correlation 구할 수 있도록 설계
+
+-----------------------------수정필요---------------------------
+
+app designer 실행 오류 (파일 이름이 일치하지 않다는 오류)
+stretch processor에서 delta_t 아직 못구함 ( f1 = fr - f0, f2 = fr - f0 + mu * delta_t, f3 = fr - f0 + 2mu * delta_t)
+costas code에서 분해능이 얼마나 좋은지 못구함 (frequency hopping 설계필요)
