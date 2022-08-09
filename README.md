@@ -58,18 +58,18 @@
       
   * output
     * correlation processor
-      * 시간차 (송신부터 수신까지 걸리는 시간)
+      * time duration (송신부터 수신까지 걸리는 시간)
       * distance
       * error rate
        
     * stretch processor 
-      * 시간차 (송신부터 수신까지 걸리는 시간)
+      * time duration (송신부터 수신까지 걸리는 시간)
       * distance
       * error rate
     
     * figure
       * chirp signal
-      * total signal (chirp 신호들의 합 + noise)
+      * total signal (chirp signals의 합 + noise)
       * window
       * correlation processor
       * stretch processor
